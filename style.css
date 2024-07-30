@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(144, 202, 156);
+    margin: 0;
+}
+
+header {
+    background-color: rgba(206, 182, 162, 0.7);
+    height: 95px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+.Nav_Bar {
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin: 2px;
+    font-style:oblique;
+}
+
+button {
+    height: 50px;
+    width: fit-content;
+    background-color: rgba(137, 140, 111, 0.5);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    border: 2px solid rgb(125, 64, 64);
+    border-radius: 100px;
+    margin: 5px 30px ;
+}
+
+button:hover {
+    transform: scale(1.2);
+    background-color: rgb(174, 61, 61);
+}
+
+.background-image-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+.background-image  {
+    height: 500px;
+    width: 100%;
+}
+
+.Biography {
+    background-color: rgb(206, 182, 162);
+    height: fit-content;
+    padding: 5px 70px;
+}
+
+.right_float_image {
+    float: right;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.left_float_image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: rgba(206, 182, 162);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer_p {
+    font-size: large;
+    font-weight: bold;
+    color: rgb(34, 100, 103);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*  */
+.contributions {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    padding: 30px;
+    border: 2px solid black;
+    align-items: center;
+}
+
+.Awards_img {
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 50px;
+    float: right;
+}
+
+.Awards_img:hover {
+    transform: scale(2);
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: 1s ease-in-out;
+}
+
+.P_contributions {
+    padding: 10px;
+}
+
+#contributions_header{
+    height: 55px;
+}
+
+.h1_content {
+    padding: 50px;
+}
+
+aside {
+    width: 800px;
+}
+
