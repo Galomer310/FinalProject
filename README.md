@@ -1,2 +1,2 @@
-# FinalProject
-week 1 bootcamp
+# FinalProject - week one bootcamp
+
